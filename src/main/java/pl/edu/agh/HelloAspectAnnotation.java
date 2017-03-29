@@ -11,7 +11,7 @@ import org.aspectj.lang.annotation.Before;
 import org.aspectj.lang.annotation.Pointcut;
 
 @Aspect
-public class HelloAspect {
+public class HelloAspectAnnotation {
     /**
      * wiczenie 01 / 4.3-4
      * Dodaj punkt cięcia: pointcut pointcutSay() : execution(* pl.edu.*.*.say*(..));
